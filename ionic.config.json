@@ -1,0 +1,7 @@
+{
+  "name": "capv6-sqlite",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
