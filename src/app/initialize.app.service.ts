@@ -8,7 +8,7 @@ export const topicModeLocationVersionUpgrades = [
   {
     toVersion: 1,
     statements: [
-      `CREATE TABLE IF NOT EXISTS database (
+      `CREATE TABLE IF NOT EXISTS myDatabase (
         id INTEGER PRIMARY KEY CHECK (id = 1), -- THIS MAKES THIS A SINGLETON
         isInitialized INTEGER NOT NULL check (isInitialized between 0 and 1) DEFAULT 1 --boolean
       );`,
